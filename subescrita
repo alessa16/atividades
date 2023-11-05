@@ -64,9 +64,9 @@ class Aluno(Integrante_IFRN):
     def exibirMensagem(self):
         print('Vou estudar pra tirar 100 em POO!!!')
 
-a = Integrante_IFRN('20221174010009', 'borboletinha')
-b = Professor('20221174010010', 'glimpse', 'biologia')
-c = Aluno('20221174010012', 'paoComMortadela', 'boletin.csv')
+a = Integrante_IFRN('20221174010023', 'borboletinha')
+b = Professor('20221174010019', 'glimpse', 'biologia')
+c = Aluno('20221174010015', 'paoComMortadela', 'boletin.csv')
 
 print(a.matricula)
 print(a.senha)
